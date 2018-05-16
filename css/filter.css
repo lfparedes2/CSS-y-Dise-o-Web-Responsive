@@ -1,0 +1,11 @@
+#galeria img.blur{
+    filter: blur(10px);
+}
+
+#galeria img.gray{
+    filter: grayscale(100%);
+}
+
+#galeria img.sepia{
+    filter: sepia(90%);
+}
