@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cabecera{
+	background: rgb(240,183,161); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(240,183,161,1) 0%, rgba(117,34,1,1) 37%, rgba(117,34,1,1) 37%, rgba(140,51,16,1) 50%, rgba(191,110,78,1) 95%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 37%,rgba(117,34,1,1) 37%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 95%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 37%,rgba(117,34,1,1) 37%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+
+.fondo{
+	background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 56%, rgba(14,14,14,1) 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 56%,rgba(14,14,14,1) 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 56%,rgba(14,14,14,1) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+.fontHeader{
+	font-family: Impact, Charcoal, sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+word-spacing: 6px;
+color: #070101;
+font-weight: 700;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+/*Clase para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+	}
+	
+	.logo-img {
+		text-align: left;
+	}
+}
+
+/* Clase para darle estilos al logo */
+.logo-img img {
+	height: 200px;
+}
+
+/* Clase para darle estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 10px;
+}
+
+/*Clase para darle estilos a el contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
